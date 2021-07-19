@@ -1,0 +1,235 @@
+body{
+  
+    margin: 10px;
+ 
+    
+   
+}
+
+.heading{
+ 
+    width: 200px;
+    padding: 10px;
+   
+    background-color:pink;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 15%;
+    height: 15%;
+
+    
+    
+}
+#Main_heading{
+    font-family:Algerian;
+    text-align: center;
+    font-size: 30px;
+    background-color: pink;
+   
+}
+.box h4, .box p {
+    display: inline-block;
+
+     
+}
+.box pre, .box h3 {
+    display: inline-block;
+}
+.box p{
+    margin-left: 80px;
+}
+.box h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.box small{
+    float: right;
+}
+.container1 pre{
+    font-size: 20px;
+}
+
+table{
+border-collapse: collapse;
+border-radius: 10px;
+overflow: hidden;
+
+color:black;
+background-color: pink;
+
+
+}
+
+
+
+.text{
+    /* writing-mode: sideways-lr; */
+      /* transform: rotate(90deg);
+  
+    -webkit-transform:rotate(-90deg); 
+     */
+    /* writing-mode:vertical-lr; */
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px;
+}
+.subject {
+    text-align: center;
+    font-weight: bold;
+}
+.obt{
+    text-align: center;
+}
+.grades{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+.last_text p{
+    display: inline-block;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+
+}
+
+@media(max-width:600px){
+    table{
+        
+       width: 100px;
+      padding: 200px;
+     border: 1px solid black;
+     
+    
+    }  
+}
+
+/* @media screen and (max-width:800px)
+{
+    .heading .heading2 
+
+    {
+    width: 100%;
+    
+    }
+    .main_container, p{
+        font-size: 10px;
+       width: 100%;
+       
+
+    }
+    td tr{
+        width: 50%;
+    }
+    .logo{
+        margin: auto 0;
+        width: 50%;
+    }
+} */
+/* .navbars{
+    position: fixed;
+    width: 100%;
+    transition: all 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px 0;
+    z-index: 999;
+
+}
+.navbars.sticky .logo a span{
+   
+    color:white;
+}
+.navbars.sticky{
+    padding: 15px 0; 
+    background-color: crimson; 
+}
+.navbars .max_width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbars .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color:white;
+
+}
+.navbars .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbars .menu li a{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition:  0.3s ease;
+}
+
+.navbars .logo a span{
+   color:crimson;
+   transition: all 0.3s ease;
+}
+.navbars .menu li a:hover{
+    color:crimson
+
+}
+.menu-btn{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width:947px){
+    .max_width{
+        
+        padding: 0 50px;
+     
+    
+    }  
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+    .navbars .menu{
+        position: fixed;
+        background: black;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        transition:  all 0.3s ease;
+    }
+    .navbars .menu li{
+        display: block;
+    }
+    .navbars .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+
+    }
+    .menu-btn{
+       display: block;
+       z-index: 999;
+    }
+
+    .navbars .menu.active{
+     left: 0;
+    }
+}
+
+.max_width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin:auto;
+
+} */
